@@ -1,0 +1,60 @@
+.shopcart-app {
+  margin: 2rem auto 0 auto;
+  max-width: 800px;
+}
+
+h1 {
+  display: none;
+}
+
+.discount {
+  display: none;
+}
+
+
+
+
+@media print {
+  .noprint {display:none}
+
+  .form-control-select {
+    padding-left: 40%;
+  } 
+
+  th {
+    text-align: center;
+  }
+
+  h1 {
+    display: block;
+    text-align: center;
+  }
+
+  .discount {
+    display: block;
+  }
+  
+  .table {
+    margin-top: 30px;
+  }
+  
+  .shopcart-app {
+    width: 600px;
+  }
+
+  .table td {
+    text-align: center;
+  }
+
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+
+@page {
+  margin: 0;
+}
+
+
